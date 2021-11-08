@@ -53,7 +53,7 @@ p {
   line-height: 1.4;
   padding-top: 20px;
   padding-bottom: 25px;
-  letter-spacing: .6px;
+  letter-spacing: 0.6px;
   font-size: 15px;
 }
 .card {
@@ -112,9 +112,8 @@ button:hover {
   cursor: pointer;
   color: hsl(0, 0%, 95%);
   border: 1px solid hsl(0, 0%, 95%);
-background-color: transparent;
+  background-color: transparent;
 }
-
 
 /* MEDIA QUERIES */
 
@@ -129,7 +128,6 @@ background-color: transparent;
     max-width: 60%;
     flex-direction: row;
     justify-content: space-around;
-    
   }
 
   .sedans,
@@ -139,10 +137,6 @@ background-color: transparent;
     flex-direction: column;
     gap: 10px;
     align-items: top;
-  }
-
-  p {
-   max-height
   }
 
   .sedans {
@@ -166,7 +160,6 @@ background-color: transparent;
   p {
     max-height: 120px;
     margin-bottom: 40px;
-   
   }
   button {
     margin-top: 50px;
